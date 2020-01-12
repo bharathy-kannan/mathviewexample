@@ -97,7 +97,7 @@ export default class App extends React.Component {
     return(
         <View style={{flex:1, display:'flex'}}>
             <Text>The following is rendered using Math View</Text>
-            <MathView math='Here is a normal text with some math in it using MathView \frac{1}{2}' />
+            <MathView math={'\\text{Here is a normal text with some math in it using MathView } \\frac{1}{2} '} />
             
             
             <Text>The following is rendered using Katex</Text>
